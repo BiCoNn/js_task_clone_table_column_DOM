@@ -27,8 +27,6 @@ for (const row of asArrThead) {
   }
 }
 
-// console.log(position);
-
 let i = 0;
 let newData;
 
