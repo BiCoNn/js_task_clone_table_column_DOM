@@ -35,7 +35,6 @@ let newData;
 for (const data of forthColumn) {
   if (data.tagName.toLocaleLowerCase() === 'th') {
     newData = document.createElement('th');
-    // newData.textContent = position[i];
   }
 
   if (data.tagName.toLocaleLowerCase() === 'td') {
